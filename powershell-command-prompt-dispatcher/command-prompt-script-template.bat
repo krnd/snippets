@@ -14,10 +14,10 @@ REM Remove the PowerShell script.
 DEL /F /Q "%~f0.ps1"
 
 REM Report that the execution of the PowerShell script completed.
-REM Use `SLEEP` to enforce an explicit confirmation otherwise use `TIMEOUT`.
+REM Use `PAUSE` to enforce an explicit confirmation otherwise use `TIMEOUT`.
 ECHO.
 ECHO.
-SLEEP
+PAUSE
 
 REM Remove the file itself.
 (GOTO) 2> NUL & DEL /F /Q "%~f0"
