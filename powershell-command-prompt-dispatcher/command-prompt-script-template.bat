@@ -14,7 +14,7 @@ REM Remove the PowerShell script.
 DEL /F /Q "%~f0.ps1"
 
 REM Report that the execution of the PowerShell script completed.
-REM Use `SLEEP` to enforce an external confirmation otherwise use `TIMEOUT`.
+REM Use `SLEEP` to enforce an explicit confirmation otherwise use `TIMEOUT`.
 ECHO.
 ECHO.
 SLEEP
