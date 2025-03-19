@@ -1,8 +1,9 @@
+@REM ...
 @ECHO OFF
 
 REM Write the PowerShell script.
 REM (Skip the leading command prompt script section.)
-MORE +25 "%~f0" > "%~f0.ps1"
+MORE +26 "%~f0" > "%~f0.ps1"
 
 REM Run the generated PowerShell script.
 REM (Use a less restrictive execution policy.)
