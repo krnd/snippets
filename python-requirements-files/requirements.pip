@@ -1,0 +1,44 @@
+# ###################### ENVIRONMENT #######################
+
+# Command line utility to show dependency tree of packages.
+pipdeptree
+
+
+# ###################### DEVELOPMENT #######################
+
+# The uncompromising code formatter.
+black
+# the modular source code checker: pep8 pyflakes and co
+flake8
+# A plugin for flake8 finding likely bugs and design
+# problems in your program. Contains warnings that don't
+# belong in pyflakes and pycodestyle.
+flake8-bugbear
+# A Python utility / library to sort Python imports.
+isort
+
+
+# ###################### TESTING ###########################
+
+# pytest: simple powerful testing with Python
+pytest
+
+
+# ###################### BUILD #############################
+
+# Easily download, build, install, upgrade, and uninstall
+# Python packages
+setuptools
+# A simple, correct Python build frontend
+build
+
+# Modern, extensible Python project management
+hatch
+
+# Datamodel Code Generator
+datamodel-code-generator
+
+
+# ###################### PROJECT ###########################
+
+# ...
