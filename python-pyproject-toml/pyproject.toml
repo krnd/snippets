@@ -1,0 +1,17 @@
+[tool.pyright]
+reportMissingTypeStubs = false
+extraPaths = ["launch"]
+
+[tool.black]
+line-length = 80
+
+[tool.isort]
+profile = "black"
+lines_after_imports = 2
+
+[tool.datamodel-codegen]
+disable-timestamp = true
+target-python-version = "3.13"
+use-generic-container-types = true
+use-title-as-name = true
+use-double-quotes = true
