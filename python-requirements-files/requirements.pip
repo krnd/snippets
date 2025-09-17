@@ -39,6 +39,12 @@ hatch
 datamodel-code-generator
 
 
+# ###################### PUBLISH ###########################
+
+# Collection of utilities for publishing packages on PyPI
+twine
+
+
 # ###################### PROJECT ###########################
 
 # ...
